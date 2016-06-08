@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.Parser", "ITI.Parser\ITI.Parser.csproj", "{EF31357D-B875-48EF-A6F9-7FC42B0986BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.Parser.Tests", "ITI.Parser.Tests\ITI.Parser.Tests.csproj", "{54E95A92-E76D-46A0-90FB-46D2AB12CC23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A25D3784-1594-4BD2-AD64-D05D5F5331A8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF31357D-B875-48EF-A6F9-7FC42B0986BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF31357D-B875-48EF-A6F9-7FC42B0986BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF31357D-B875-48EF-A6F9-7FC42B0986BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF31357D-B875-48EF-A6F9-7FC42B0986BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E95A92-E76D-46A0-90FB-46D2AB12CC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E95A92-E76D-46A0-90FB-46D2AB12CC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E95A92-E76D-46A0-90FB-46D2AB12CC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E95A92-E76D-46A0-90FB-46D2AB12CC23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
